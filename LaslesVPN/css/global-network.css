@@ -1,0 +1,37 @@
+.global-network {
+    margin-bottom: 130px;
+}
+
+.global-network__title {
+    margin: 0;
+    margin: auto;
+    margin-bottom: 20px;
+    max-width: 383px;
+}
+
+.global-network__desc {
+    margin: 0;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 156px;
+    max-width: 555px;
+    font: var(--item-desc-section);
+    color: var(--grey-color);
+}
+
+.global-network__desc__strong {
+    font-weight: 500;
+}
+
+.global-network__img {
+    display: block;
+    margin: auto;
+    margin-bottom: 110px;
+}
+
+.global-network__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
