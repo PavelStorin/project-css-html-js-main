@@ -40,9 +40,6 @@ body {
 }
 
 .btn {
-    background: none;
-    color: #f53855;
-    border: 1px solid #f53855;
     border-radius: 50px;
     padding: 13px 45px;
     font-weight: 500;

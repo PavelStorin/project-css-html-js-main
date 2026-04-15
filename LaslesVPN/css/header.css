@@ -9,12 +9,12 @@
     align-items: center;
 }
 
-.nav__list {
+.header__nav-list {
     display: flex;
     gap: 40px;
 }
 
-.logo__img {
+.header__logo-img {
     width: 35px;
     height: 36px;
     vertical-align: middle;
@@ -29,11 +29,11 @@
     align-items: center;
 }
 
-.logo__strong {
+.header__logo-strong {
     font-weight: 700;
 }
 
-.nav__item {
+.header__nav-item {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -43,17 +43,23 @@
     color: var(--grey-color);
 }
 
-.nav__link {
+.header__nav-link {
     font-weight: 400;
     font-size: 16px;
     color: #4f5665;
 }
 
-.header__right {
+.header__actions {
     display: flex;
     align-items: center;
     gap: 30px;
     font-weight: 500;
     font-size: 16px;
     color: #0b132a;
+}
+
+.header__btn {
+    color: rgba(245, 56, 56, 1);
+    background-color: rgba(255, 255, 255, 1);
+    border-color: rgba(245, 56, 56, 1);
 }

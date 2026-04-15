@@ -5,7 +5,7 @@
     margin-bottom: 127px;
 }
 
-.hero__left-content {
+.hero__content {
     width: 555px;
     display: flex;
     flex-direction: column;
@@ -21,22 +21,22 @@
     color: rgba(11, 19, 42, 1);
 }
 
-.title__strong {
+.hero__title-strong {
     font-weight: 700;
 }
 
-.hero__desc {
+.hero__text {
     margin: 0;
     margin-bottom: 50px;
     font: var(--item-desc-section);
     color: rgba(79, 86, 101, 1);
 }
 
-.desc__strong {
+.hero__text-strong {
     font-weight: 500;
 }
 
-.article__btn {
+.hero__btn {
     width: fit-content;
     border: none;
     color: rgba(255, 255, 255, 1);
@@ -50,7 +50,7 @@
     box-shadow: 0 25px 40px rgba(245, 56, 56, 0.35);
 }
 
-.article__img {
+.hero__img {
     max-width: 544px;
     height: 382px;
 }
