@@ -1,24 +1,29 @@
 .features {
-    display: flex;
-    gap: 170px;
     margin-bottom: 131px;
 }
 
-.right__feautures {
-    padding-top: 54px;
+.features__container {
+    display: flex;
+    justify-content: space-between;
 }
 
-.feautures__title {
+.features__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.features__title {
     margin: 0;
-    margin-bottom: 20px;
     font: var(--section-title);
     color: var(--dark-color);
     max-width: 383px;
 }
 
-.feautures__desc {
+.features__description {
+    margin: 0;
     display: block;
-    margin-bottom: 20px;
     max-width: 428px;
     font: var(--item-desc-section);
     color: var(--grey-color);
@@ -36,7 +41,7 @@
     gap: 10px;
 }
 
-.features__item__desc {
+.features__item-text {
     font-size: 14px;
     line-height: 214%;
     color: var(--grey-color);
